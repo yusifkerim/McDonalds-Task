@@ -1,0 +1,52 @@
+#menu_top {
+  margin: 15px 0px;
+  width: 100%;
+  height: 115px;
+  border-bottom: 1px solid rgb(221, 221, 221);
+  @media (max-width:768px){
+    display: none;
+  }
+
+  .container {
+    .row {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      img{
+        width: 110px;
+        height: 110px;
+        object-fit: cover
+      }
+      .text{
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        ul {
+          @include ul(65%, 15px 0px, none);
+          display: flex;
+          flex-direction: row;
+          gap: 40px;
+  
+          li {
+            a {
+              cursor: pointer;
+              @include Text(14px, none, #292929, none, 0, 0);
+            }
+          }
+        }
+      }
+  
+      button {
+        width: 170px;
+        height: 50px;
+        background-color: $yello_color;
+        border: none;
+        border-radius: 5px;
+        a {
+          @include Text(14px, none, #292929, none, 0, 0);
+        }
+      }
+    }
+  }
+}

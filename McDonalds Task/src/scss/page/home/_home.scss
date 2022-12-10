@@ -1,0 +1,135 @@
+#banner1 {
+  .container {
+    .row {
+      .banner {
+        position: relative;
+        img {
+          width: 100%;
+        }
+        .info {
+          position: absolute;
+          bottom: 20px;
+          left: 30px;
+          width: 300px;
+          height: 190px;
+          background-color: white;
+          padding: 10px 30px;
+          h1 {
+            @include Text(35px, none, #292929, 700, 0, 0);
+            margin: 10px 0px;
+          }
+          button {
+            position: absolute;
+            width: 170px;
+            height: 50px;
+            background-color: $yello_color;
+            border: none;
+            border-radius: 5px;
+            a {
+              @include Text(14px, none, #292929, none, 0, 0);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+#banner2 {
+  .container {
+    .row {
+      padding: 20px 10px;
+      .col-lg-8 {
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      .col-lg-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        h1 {
+          @include Text(35px, none, #292929, 700, 0, 0);
+        }
+
+        button {
+          width: 170px;
+          height: 50px;
+          background-color: $yello_color;
+          border: none;
+          border-radius: 5px;
+          a {
+            @include Text(14px, none, #292929, none, 0, 0);
+          }
+        }
+      }
+    }
+  }
+}
+#banner3 {
+  .container {
+    .row {
+      padding: 20px 10px;
+      .col-lg-8 {
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+      .col-lg-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+        h1 {
+          @include Text(35px, none, #292929, 700, 0, 0);
+        }
+
+        button {
+          width: 170px;
+          height: 50px;
+          background-color: $yello_color;
+          border: none;
+          border-radius: 5px;
+          a {
+            @include Text(14px, none, #292929, none, 0, 0);
+          }
+        }
+      }
+    }
+  }
+}
+#items {
+  .container {
+    .row {
+      padding: 20px 10px;
+      .col-lg-4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 25px;
+        img {
+          width: 100%;
+          object-fit: cover;
+        }
+        h1 {
+          @include Text(35px, none, #292929, 700, 0, 0);
+        }
+        p {
+          @include Text(14px, none, #292929, 400, 0, 0);
+        }
+        button {
+          width: 170px;
+          height: 50px;
+          background-color: $yello_color;
+          border: none;
+          border-radius: 5px;
+          a {
+            @include Text(14px, none, #292929, none, 0, 0);
+          }
+        }
+      }
+    }
+  }
+}

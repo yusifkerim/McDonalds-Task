@@ -1,0 +1,29 @@
+@mixin Text (
+    $f_size:null,
+    $text_d:null,
+    $color:null, 
+    $font_w:null,
+    $text_a:null,
+    $margin:null,
+    $padding:null,
+){
+    font-size: $f_size;
+    text-decoration: $text_d;
+    color: $color;
+    font-weight: $font_w;
+    text-align: $text_a;
+    margin: $margin;
+    padding: $padding
+}
+
+@mixin ul(
+    $width:null,
+    $margin:nul,
+    $list_s:null,
+    
+){
+    width: $width;
+    margin: $margin;
+    list-style: $list_s;
+
+}
